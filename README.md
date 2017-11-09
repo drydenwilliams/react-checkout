@@ -1,3 +1,11 @@
 # React Checkout 
 
-![alt text]( "Logo Title Text 1")
+![Design for react basket](./react-basket.png "Design for react basket")
+
+## Installation
+
+```
+$ yarn
+
+$ yarn start
+```
