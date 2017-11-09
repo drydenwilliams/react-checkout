@@ -6,8 +6,6 @@ yarn-debug.log*
 yarn-error.log*
 .DS_Store
 
-src/**/*.css
-
 # Runtime data
 pids
 *.pid

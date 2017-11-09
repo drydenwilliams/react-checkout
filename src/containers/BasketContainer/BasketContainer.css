@@ -1,0 +1,75 @@
+.basket {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(236, 234, 233, 1);
+}
+
+.basket__inner {
+    background-color: #FFF;
+    width: 350px;
+    border: 1px solid rgba(226, 223, 222, 1);
+    border-radius: 5px;
+}
+
+.basket__list,
+.basket__controls {
+    padding: 20px;
+}
+
+.basket__controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(248, 249, 247, 1)
+}
+
+.basket__list__item {
+    border-bottom: 1px dashed #efefef;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+.basket__list__item:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.basket__list__item input {
+    height: 20px;
+    width: 20px;
+}
+
+.basket__list__item .name {
+    width: 40%;
+}
+
+
+.basket__list__item .price {
+    width: 20%;
+    text-align: right;
+    color: rgba(226, 147, 106, 1)
+}
+
+.basket__list__item .input {
+    width: 10%;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.btn--default {
+    background-color: transparent;
+}
+
+.btn--cta {
+    background-color: rgba(114, 187, 223, 1);
+    color: white;
+}
